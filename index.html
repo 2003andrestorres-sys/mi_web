@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DJ Andrés | Sitio Oficial</title>
+
+    <!-- Conexión con CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Encabezado y Navegación -->
+    <header>
+        <h1>DJ Andrés</h1>
+        <p>DJ & Productor Musical</p>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mi">Sobre mí</a></li>
+                <li><a href="#musica">Música</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Contenido Principal -->
+    <main>
+        <section id="sobre-mi">
+            <h2>Sobre mí</h2>
+            <p>Apasionado por la producción de electrónica, ritmos envolventes y presentaciones en vivo. Especializado en sets enérgicos y selección musical para todo tipo de eventos.</p>
+        </section>
+
+        <!-- Sección Música / Sets -->
+        <section id="musica">
+            <h2>Música y Sets</h2>
+            <p>Escucha mi última mezcla destacada de Tech House & Afro House:</p>
+
+            <!-- Contenedor para el reproductor -->
+            <div class="reproductor-container">
+                <!-- Ejemplo con set de SoundCloud (puedes reemplazar la URL por la tuya después) -->
+                <iframe width="100%" height="166" scrolling="no" frameborder="no" allow="autoplay" 
+                    src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/293&color=%23ff4500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+                </iframe>
+            </div>
+        </section>
+
+        <section id="servicios">
+            <h2>Servicios</h2>
+            <ul>
+                <li>DJ para Eventos y Clubs</li>
+                <li>Producción Musical y Mezcla</li>
+                <li>Edición y Remixes</li>
+            </ul>
+        </section>
+
+        <section id="contacto">
+            <h2>Contacto y Contrataciones</h2>
+            <p>¿Quieres contratarme o colaborar? ¡Envíame un mensaje!</p>
+            
+            <form>
+                <div>
+                    <label for="nombre">Nombre:</label><br>
+                    <input type="text" id="nombre" name="nombre" placeholder="Tu nombre">
+                </div>
+                <br>
+                <div>
+                    <label for="email">Correo Electrónico:</label><br>
+                    <input type="email" id="email" name="email" placeholder="tu@email.com">
+                </div>
+                <br>
+                <div>
+                    <label for="mensaje">Mensaje:</label><br>
+                    <textarea id="mensaje" name="mensaje" rows="4" placeholder="Escribe tu mensaje aquí..."></textarea>
+                </div>
+                <br>
+                <button type="submit">Enviar Mensaje</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 DJ Andrés. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- AQUÍ SE CONECTA JAVASCRIPT (JUSTO ANTES DE CERRAR EL BODY) -->
+    <script src="script.js"></script>
+
+</body>
+</html>
